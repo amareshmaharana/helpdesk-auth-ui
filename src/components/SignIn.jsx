@@ -13,7 +13,7 @@ const SignIn = () => {
         <button className="green-btn">Sign In</button>
         <div className="footer-links">
           <Link to="/forgot-password" className="forgot">Forgot password</Link>
-          <Link to="/signup" className="link">Sign Up</Link>
+          <Link to="/sign-up" className="link">Sign Up</Link>
         </div>
       </div>
     </div>
