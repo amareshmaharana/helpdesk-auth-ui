@@ -5,8 +5,8 @@ const SignUp = () => {
   return (
     <div className="container">
       <div className="form-box">
-        <h2 className='heading'><i>Helpdesk System</i></h2>
-        <p className='sub-heading'>Sign up here</p>
+        <h2><i>Helpdesk System</i></h2>
+        <p>Sign up here</p>
         <input type="text" placeholder="Username" />
         <input type="password" placeholder="Password" />
         <input type="email" placeholder="Email" />
