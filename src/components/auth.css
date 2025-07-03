@@ -38,13 +38,15 @@ body {
 .form-box h2 {
   margin-bottom: 20px;
   font-style: italic;
-  font-weight: bold;
+  font-weight: bolder;
+  color: #000;
 }
 
 /* Sub text (like "Sign up here") */
 .form-box p {
   margin-bottom: 15px;
   font-size: 16px;
+  color: #000;
 }
 
 /* Input fields */
