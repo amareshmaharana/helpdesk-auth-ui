@@ -9,10 +9,9 @@ const ForgotPassword = () => {
         <p>Don’t worry, Enter your email below and we will<br />send you a link to change password.</p>
         <input type="email" placeholder="Email" />
         <button className="green-btn">Submit</button>
-        <Link to="/">
+        <Link to="/sign-in">
           <button className="blue-btn">Sign In</button>
         </Link>
-        {/* <Link to='/' className='blue-btn-for-pass'><button>Sign In</button></Link> */}
       </div>
     </div>
   );
