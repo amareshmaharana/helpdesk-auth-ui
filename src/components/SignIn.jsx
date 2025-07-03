@@ -7,6 +7,7 @@ const SignIn = () => {
     <div className="container">
       <div className="form-box">
         <h2><i>Helpdesk System</i></h2>
+        <p>Welcome back!</p>
         <input type="text" placeholder="Username" />
         <input type="password" placeholder="Password" />
         <button className="green-btn">Sign In</button>
