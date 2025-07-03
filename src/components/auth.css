@@ -1,0 +1,113 @@
+/* Reset & base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #4ad9c0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Centering the form container */
+.container {
+  background-color: #4ad9c0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Form box */
+.form-box {
+  background-color: #a4e0da;
+  padding: 40px 30px;
+  border-radius: 10px;
+  width: 360px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Title */
+.form-box h2 {
+  margin-bottom: 20px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+/* Sub text (like "Sign up here") */
+.form-box p {
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+/* Input fields */
+.form-box input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  font-size: 16px;
+  border: 1px solid #666;
+  border-radius: 5px;
+}
+
+/* Buttons */
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.green-btn {
+  background-color: #00cc33;
+  color: white;
+}
+
+.green-btn:hover {
+  background-color: #00b32a;
+}
+
+.blue-btn {
+  background-color: #1e6cf2;
+  color: white;
+  margin-top: 10px;
+}
+
+.blue-btn:hover {
+  background-color: #155dd1;
+}
+
+/* Footer links */
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.footer-links .forgot {
+  color: red;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-links .link {
+  color: black;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-links .forgot:hover,
+.footer-links .link:hover {
+  text-decoration: underline;
+}
