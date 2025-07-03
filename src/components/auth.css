@@ -113,3 +113,30 @@ button {
 .footer-links .link:hover {
   text-decoration: underline;
 }
+
+
+.header {
+  font-size: 70px;
+  margin-bottom: 20px;
+}
+.text {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+}
+.btns {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.btns button {
+  margin-bottom: 10px;
+  width: 200px;
+}
